@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px){
+    .row {
+        margin: 0 1.5rem;
+        text-align: center;
+        margin: 0 1.5rem;
+    }
+    .team-section .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .client-review p{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .mobile-menu .point{
+        display: block;
+    }
+    header{
+        height: 65vh;
+    }
+    .row {
+        margin: 0 1.5rem;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review p{
+        margin-bottom: 1rem;
+    }
+    h3{
+        line-height: 0;
+    }
+    .role{
+        margin-top: 0;
+    }
+    .contact-section form{
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .services-section .row{
+        padding: 2rem;
+        overflow: hidden;
+    }
+   
+}
+@media  screen and (max-width: 768px) {
+    header{
+        height: 60vh;
+    }
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-section ul li{
+        margin: 0 1rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    header{
+        height: 75vh;
+    }
+    .span_1_of_4{
+        width: 100%;
+    }
+    .team-section .span_1_of_4{
+        width: 100%;
+    }
+    .team-member {
+        margin-top: 1.5rem;
+        margin-bottom: -0.5rem;
+    }
+    .footer-section ul li a{
+        font-size: 1.6rem;
+    }
+    ul{
+        padding-left: 0;
+    }
+    .footer-section ul li {
+        margin: 0 0.5rem;
+    }
+    
+    .contact-section form{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5rem;
+    }
+    h2{
+        letter-spacing:.1rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+}
